@@ -15,6 +15,7 @@ function newFact(n = 42) {
 
 function cat() {
   newCat();
+  console.log('get cat image')
 }
 
 async function fetchText(number = 42) {
